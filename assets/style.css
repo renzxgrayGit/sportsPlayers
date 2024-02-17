@@ -1,0 +1,114 @@
+body {
+    font-family: "Geologica", sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#search_side input[type="search"], 
+input[type="submit"] {
+    width: 310px;
+}
+
+#search_side input[type="search"],
+#search_side input[type="checkbox"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px solid #1c2c3d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+#search_side {
+    width: 25%;
+    background-color: #aed5ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    height: 90vh;
+}
+
+#search_side form {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+background-color: #007bff; 
+color: #fff; 
+padding: 10px 20px; 
+border: none; 
+cursor: pointer;
+border-radius: 5px; 
+font-size: 16px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#search_side p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#search_side label {
+    display: block;
+    margin: 20px 0;
+}
+
+#players_side {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    height: 95vh;
+    overflow: auto;
+    border-radius: 8px;
+}
+
+.player_card {
+    height: 380px;
+    background-color: #75B8FF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    overflow: hidden; 
+    border: 2px solid rgb(29, 29, 29);
+}
+
+.player_card p {
+    font-weight: 200;
+    margin: 9px 0;
+}
+
+.player_card span {
+    font-weight: 800;
+}
+
+.player_card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+}
